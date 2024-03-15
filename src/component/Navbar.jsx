@@ -14,7 +14,7 @@ const Navbar = () => {
             <ul className={`flex md:flex-row flex-col text-[20px] gap-10 text-[#6b7688]  font-[600] uppercase md:static  bg-[white] absolute md:w-aoto md:bg-transparent w-[80%] ${toggle? 'right-0': 'right-[-100%]'} top-[80px] md:h-auto h-[100vh] transition-[1s] md:p-0 p-10`}>
                 <li><a href="#"  className='links'>Home</a></li>
                 <li><a href="#"  className='links'>Skills</a></li>
-                <li><a href="#"  className='links'>Works</a></li>
+                <li><a href="#"  className='links flex gap-[4px]'><p>MY </p><p>Works</p></a></li>
                 <li><a href="#" className='links'>Contact</a></li>
             </ul>
         </div>

@@ -3,13 +3,19 @@ import Gif  from "..//assets/dev1.gif"
 import Redux  from "..//assets/redux.png"
 import ReactImg  from "..//assets/react.png"
 import Sass  from "..//assets/sass.png"
+import Social  from './Social'
 
+// anination 
 
+// import { Fade,Zoom,Flip } from 'react-reveal';
 
 const Header = () => {
   return (
     <div className='pt-[250px] lg:pt-0 bg-[#EDF2F8] w-full lg:h-[100vh] flex lg:flex-row flex-col items-center justify-center gap-8' >
         {/* Download CV  */}
+
+        {/* <Flip left> */}
+
         <div className='flex flex-col gap-6 md:gap-10 items-center  md:items-end w-full max-w-[400px]'>
            <div className='flex justify-center items-center bg-[white] gap-10 w-full max-w-[350px] p-3 rounded-[15px] shadow-lg'>
             <p className='text-[35px]'>👋</p>
@@ -22,16 +28,27 @@ const Header = () => {
            <a href='rezume.pdf' download  type="button" class="text-white bg-[#313bac] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Download CV</a>
         </div>
 
+        {/* </Flip> */}
+
         {/* gif for dev  */}
+
+        {/* <Zoom right duration={1000} delay={1000}> */}
         <div className='text-center'>
           <img src={Gif} alt="Gif" />
         </div>
+       
+           
+        
         <div className='flex  lg:flex-col gap-10'>
             <div className='w-[75px] h-[75px] lg:w-[100px] lg:h-[100px] rounded-full bg-[white] shadow-2xl flex justify-center items-center'><img src={Redux} className='w-[80%]  '   alt="img" /></div>
             <div className='w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] rounded-full bg-[white] shadow-2xl flex justify-center items-center'><img src={ReactImg} className='w-[90%] ' alt="img" /></div>
             <div className='w-[70px] h-[70px] lg:w-[90px] lg:h-[90px] rounded-full bg-[white] shadow-2xl flex justify-center items-center'><img src={Sass} className='w-[80%] '  alt="img" /></div>
         </div>
+         {/* </Zoom> */}
+
+        {/* <Social/> */}
     </div>
+   
   )
 }
 
