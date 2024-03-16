@@ -2,7 +2,7 @@ import React from 'react'
 import {SkillsData} from "../databas/skills.db."
 
 // anination 
-// import { Fade,Zoom,Flip } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 const Skils = () => {
   return (
@@ -16,14 +16,14 @@ const Skils = () => {
         <div className='flex flex-wrap gap-5 md:gap-10 py-10 justify-center items-center w-[90%] md:w-[70%] m-auto '>
           {SkillsData.map((item)=>
 
-          // <Fade bottom>
+          <Fade top>
            <div key={item.id}>
            <div className='w-[70px] h-[70px] md:w-[100px] md:h-[100px]  rounded-full bg-[#fef4f5] flex justify-center items-center hover:shadow-lg '>
               <img src={item.img} alt="img" className='w-[50px] h-[50px] p-2' />
            </div>
            <div className='text-center mt-2 text-[14px] '>{item.title}</div>
          </div>
-        //  </Fade>
+          </Fade>
           )}
           
         </div>

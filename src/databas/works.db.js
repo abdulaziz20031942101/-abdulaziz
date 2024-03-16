@@ -8,9 +8,10 @@ export const WorksData = [
         title:"Order Tracking Application for a Jewelry Workshop",
         date:"Apr - July 2024",
         description:"A comprehensive order tracing application taulored for a Jewelry workshop to streamline their order management and inventory tracing processes.The application provided real-time updates on order status, facilitated communication between craftsmen, and improved overall operational efficiency",
-        stack:"React, Redux Toolkit,Tailwind CSS,PHP,MySQL"
-        // link:"https://abdulaziz-seven.vercel.app",
-        // github:"https://github.com/       -------"
+        stack:"React, Redux Toolkit,Tailwind CSS,PHP,MySQL",
+        link: `https://abdulaziz-seven.vercel.app`,
+        github:`https://github.com/abdulaziz20031942101/-abdulaziz.git`
+        
     },
     {
         id:2,
@@ -18,9 +19,9 @@ export const WorksData = [
         title:"Order Tracking Application for a Jewelry Workshop",
         date:"Apr - July 2024",
         description:"A comprehensive order tracing application taulored for a Jewelry workshop to streamline their order management and inventory tracing processes.The application provided real-time updates on order status, facilitated communication between craftsmen, and improved overall operational efficiency",
-        stack:"React, Redux Toolkit,Tailwind CSS,PHP,MySQL"
-        // link:"https://abdulaziz-seven.vercel.app",
-        // github:"https://github.com/       -------"
+        stack:"React, Redux Toolkit,Tailwind CSS,PHP,MySQL",
+        link: `https://abdulaziz-seven.vercel.app`,
+        github:`https://github.com/abdulaziz20031942101/-abdulaziz.git`
     },
     {
         id:3,
@@ -28,8 +29,8 @@ export const WorksData = [
         title:"Order Tracking Application for a Jewelry Workshop",
         date:"Apr - July 2024",
         description:"A comprehensive order tracing application taulored for a Jewelry workshop to streamline their order management and inventory tracing processes.The application provided real-time updates on order status, facilitated communication between craftsmen, and improved overall operational efficiency",
-        stack:"React, Redux Toolkit,Tailwind CSS,PHP,MySQL"
-        // link:"https://abdulaziz-seven.vercel.app"
-        // github:"https://github.com/       -------"
+        stack:"React, Redux Toolkit,Tailwind CSS,PHP,MySQL",
+        link: `https://abdulaziz-seven.vercel.app`,
+        github:`https://github.com/abdulaziz20031942101/-abdulaziz.git`
     },
 ]
