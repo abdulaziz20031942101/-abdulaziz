@@ -18,7 +18,7 @@ const Navbar = () => {
                 <li><a href="#" className='links'>Contact</a></li>
             </ul>
         </div>
-        <div className='flex gap-5'>
+        <div className='flex md:gap-5 gap-1 text-[14px]'>
             <div>RU</div>
             <div>ENG</div>
         </div>
