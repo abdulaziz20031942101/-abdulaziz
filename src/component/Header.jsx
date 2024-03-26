@@ -11,7 +11,7 @@ import {Fade,Flip,Zoom} from "react-reveal";
 
 const Header = () => {
   return (
-    <div className='pt-[250px] lg:pt-0 bg-[#EDF2F8] w-full lg:h-[100vh] flex lg:flex-row flex-col items-center justify-center gap-8' >
+    <div className='pt-[250px] lg:pt-0 bg-[#EDF2F8] w-full lg:h-[100vh] flex lg:flex-row flex-col items-center justify-center gap-8' id='home' >
         {/* Download CV  */}
 
         <Flip right>
@@ -20,10 +20,10 @@ const Header = () => {
            <div className='flex justify-center items-center bg-[white] gap-5 md:gap-10 w-full max-w-[350px] p-1  lg:p-3 rounded-[15px] shadow-lg'>
             <p className='text-[35px]'>👋</p>
             <p className='flex flex-col'>
-                <span className='text-slate-400 text-[20px]'>Hello, I am</span>
+                <span className='text-slate-400 text-[20px]' >Hello, I am</span>
                 <span className='font-bold text-[30px]'>Abdulaziz</span>
             </p>
-           </div>
+           </div> 
            <div className='w-full bg-[white] max-w-[300px] p-3 rounded-[15px] shadow-lg'>FRONTEND/REACT  DEVELOPER</div>
            <a href='rezume.pdf' download  type="button" class="text-white bg-[#313bac] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Download CV</a>
         </div>

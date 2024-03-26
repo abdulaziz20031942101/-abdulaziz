@@ -5,7 +5,7 @@ import Call from "../assets/call.png"
 
 const Contact = () => {
   return (
-    <div>
+    <div id='contact'>
         <div className='text-[35px] my-10 md:text-[44px] text-center font-bold '>Contact Me</div>
         <div className='max-w-[700px] w-full m-auto px-5 '>
           <div className='flex flex-wrap justify-center items-center gap-5 md:gap-10 my-5'>
